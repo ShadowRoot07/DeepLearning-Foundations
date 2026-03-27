@@ -14,5 +14,5 @@ jobs:
         run: |
           pip install torch numpy
       - name: Run Tensor Lab
-        run: python clase11_red_neuronal.py
+        run: python clase12_clasificacion.py
 
