@@ -15,5 +15,5 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase15_cnn.py
+        run: python clase16_dataloader.py
 
