@@ -15,5 +15,5 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase13_vision.py
+        run: python clase14_bordes.py
 
