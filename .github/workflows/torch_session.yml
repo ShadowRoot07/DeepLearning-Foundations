@@ -14,5 +14,5 @@ jobs:
         run: |
           pip install torch numpy
       - name: Run Tensor Lab
-        run: python clase8_tensores.py && python clase9_neurona.py
+        run: python clase10_entrenamiento.py
 
