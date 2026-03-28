@@ -15,5 +15,5 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase19_guardar.py && python clase19_cargar.py
+        run: python clase20_embeddings.py
 
