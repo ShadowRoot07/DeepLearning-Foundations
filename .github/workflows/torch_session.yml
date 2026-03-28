@@ -15,4 +15,4 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase25_transformer.py
+        run: python clase26_transfer.py
