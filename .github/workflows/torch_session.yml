@@ -15,4 +15,4 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase23_generador.py
+        run: python clase24_lstm.py
