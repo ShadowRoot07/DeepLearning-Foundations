@@ -15,5 +15,5 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase20_embeddings.py
+        run: python clase21_sentimiento.py
 
