@@ -15,5 +15,4 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase21_sentimiento.py
-
+        run: python clase22_rnn_basica.py
