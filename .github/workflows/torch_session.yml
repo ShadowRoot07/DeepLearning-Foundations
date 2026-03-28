@@ -15,5 +15,5 @@ jobs:
           pip install torch torchvision pillow requests
 
       - name: Run Tensor Lab
-        run: python clase17_entrenamiento_cnn.py
+        run: python clase18_subaru_test.py
 
