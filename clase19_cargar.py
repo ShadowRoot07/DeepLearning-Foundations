@@ -1,7 +1,5 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
-from torchvision import datasets, transforms
 
 class Net(nn.Module):
     def __init__(self):
@@ -17,14 +15,14 @@ class Net(nn.Module):
         x = x.view(-1, 320)
         x = torch.relu(self.fc1(x))
         x = self.fc2(x)
-    
-    return x
-
+        return x # <--- DEBE ESTAR AQUÍ ADENTRO
 
 modelo_nuevo = Net()
+
 # CARGAR LOS PESOS
-modelo_nuevo.load_state_dict(torch.load('modelo_mnist.pth'))
+# weights_only=True es una buena práctica de seguridad en versiones nuevas de torch
+modelo_nuevo.load_state_dict(torch.load('modelo_mnist.pth', weights_only=True))
 modelo_nuevo.eval()
 
-print("Modelo cargado con éxito. Listo para inferencia instantánea.")
+print("¡Modelo resucitado con éxito! Ya no necesitamos entrenar.")
 
